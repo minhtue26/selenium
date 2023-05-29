@@ -1,5 +1,3 @@
-package automationlearning;
-
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -11,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.By;
-public class h1 {
+public class getElement {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
   @BeforeClass
